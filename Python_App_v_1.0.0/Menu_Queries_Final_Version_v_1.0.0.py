@@ -14,7 +14,7 @@ import pandas as pd
 import getpass
 
 hostname = 'localhost'
-database = 'HelpDesk_v_0.0.9'
+database = 'HelpDesk'
 username = 'postgres'
 pwd = 'admin'
 port_id = 5432
@@ -881,7 +881,7 @@ def Query5_info_tech2():
 menu_options_hr = {            
                             1: 'Select the name, the email and the phone number of the HR who watched the Tickets and if the Ticket has been closed, check in how much time the issue has been solved basing on the report information.',
                             2: 'Find the amount of the Contract handled by the HR employee that have received the highest number of Bonus.',
-                            3: 'Select in a descendent order the first 15 name of the employees and the ID of the HR employee who hired them, who still have more than 13 days of holidays left depending on the number of days of holidays left.',
+                            3: 'Select in a descendent order the first 15 name of the employees and the ID of the HR employee who hired them, who still have more than 13 days of holidays left depending on the number of days of             holidays left.',
                             4: 'Find all the email, name and surname HR who have a phone benefit of the brand "Samsung" and their annual salary is beyond the 25 k treshold. Order the result by descendent Annual Salary.',
                             5: 'Find the ranking of the HR basing on how many employee they have hired specifying their name and surname, ordering in descending order w.r.t. the number of employee hired.',
                             
@@ -1173,7 +1173,7 @@ try:
                             logged = False
                     elif check == False and type_employee == '2_nd_Level_Technician':
                             check = True      
-                    elif type_employee == '2_nd_Level_Technician':   
+                    elif type_employee == '2_nd_Level_Technician' and option != 'L' and option != 'l':   
                             print('Invalid Option. Please enter a number between 1 and 5.')
                 
                             
@@ -1215,7 +1215,7 @@ try:
                             logged = False
                     elif check == False and type_employee == 'Account_Manager':
                             check = True      
-                    elif type_employee == 'Account_Manager':   
+                    elif type_employee == 'Account_Manager' and option != 'L' and option != 'l':   
                             print('Invalid Option. Please enter a number between 1 and 5.')
                             
                     #BUSINESS_MANAGER: 
@@ -1256,7 +1256,7 @@ try:
                             logged = False
                     elif check == False and type_employee == 'Account_Manager':
                             check = True      
-                    elif type_employee == 'Business_Manager':   
+                    elif type_employee == 'Business_Manager' and option != 'L' and option != 'l':   
                             print('Invalid Option. Please enter a number between 1 and 5.')
                             
                     #HUMAN_RESOURCES: 
@@ -1297,7 +1297,7 @@ try:
                             logged = False
                     elif check == False and type_employee == 'Human_Resourcer':
                             check = True      
-                    elif type_employee == 'Human_Resourcer':   
+                    elif type_employee == 'Human_Resourcer' and option != 'L' and option != 'l':   
                             print('Invalid Option. Please enter a number between 1 and 5.')
                             
                     #FINANCE: 
@@ -1338,7 +1338,7 @@ try:
                             logged = False
                     elif check == False and type_employee == 'Financer':
                             check = True      
-                    elif type_employee == 'Financer':   
+                    elif type_employee == 'Financer' and option != 'L' and option != 'l':   
                             print('Invalid Option. Please enter a number between 1 and 5.')
                         
                     #LEADERSHIP:   
@@ -1375,7 +1375,6 @@ try:
                     elif option == '8.info' and (type_employee == 'Leadership_Employee'): 
                             Query8_info_Lead()
                     elif (option == 'Tech1' or option == 'tech1' or option == 't1') and (type_employee == 'Leadership_Employee'): 
-                            print('lead is: ', lead)
                             type_employee = '1_st_Level_Technician'
                     elif (option == 'Tech2' or option == 'tech2' or option == 't2') and (type_employee == 'Leadership_Employee'): 
                             type_employee = '2_nd_Level_Technician'
@@ -1398,7 +1397,7 @@ try:
                             logged = False
                     elif check == False and type_employee == 'Leadership_Employee':
                             check = True      
-                    elif type_employee == 'Leadership_Employee':   
+                    elif type_employee == 'Leadership_Employee' and option != 'L' and option != 'l':   
                             print('Invalid Option. Please enter a number between 1 and 8.')
                             
 except Exception as error:
