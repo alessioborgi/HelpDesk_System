@@ -12,7 +12,7 @@ PROJECT RESULTS:
 • Ticket-Report-Convalidation scheme by customer and incident management process. 
 • SQL Triggers and Functions for quality purposes. 
 • Implementation of about 50 nested queries.
-• Application Side implementation usin Python. 
+• Application Side implementation using Python. 
 • Web-based application split up by customer and HelpDesk interface.
 • Identity and access management based on user typology. 
 • Customer Satisfaction Implementation (Comment and Starred-Feedback).
