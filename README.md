@@ -2,7 +2,7 @@
 
 Copyright © 2022 Alessio Borgi
 
-PROJECT SCOPE: Implementation of a Ticketing System, that embraces both the Database and the Application Side Implementation.
+PROJECT SCOPE: Implementation of a Ticketing System, that embraces both the Database and the Application Side Implementation
 
 PROJECT RESULTS:
 • PostgreSQL implementation modeling 59 HelpDesk Company entities.
