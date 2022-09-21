@@ -2,7 +2,7 @@
 
 Copyright © 2022 Alessio Borgi
 
-PROJECT SCOPE: Implementation of a Ticketing System, that embraces both the Database and the Application Side Implementation
+PROJECT SCOPE: Implementation of a Ticketing System, that embraces both the Database and the Application Side Implementation.
 
 PROJECT RESULTS:
 • PostgreSQL implementation modeling 59 HelpDesk Company entities.
@@ -17,4 +17,4 @@ PROJECT RESULTS:
 • Identity and access management based on user typology. 
 • Customer Satisfaction Implementation (Comment and Starred-Feedback).
 
-Project Repository: https://github.com/alessioborgi/The_HelpDesk_Company
+PROJECT REPOSITORY: https://github.com/alessioborgi/The_HelpDesk_Company
